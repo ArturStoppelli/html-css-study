@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+
+header {
+    background-color: snow;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 20px;
+}
+
+nav {
+    background-color: gray;
+    font-weight: bold;
+    padding: 3px;
+    box-shadow: 2px 2px 2px black;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+main {
+    background-color: snow;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(48, 47, 47);
+    color: whitesmoke;
+    font-style: italic;
+    margin: 3px;
+    padding: 1px;
+    border-radius: 20px;
+}
+div#bola {
+    background-color: snow;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
